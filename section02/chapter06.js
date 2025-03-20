@@ -23,7 +23,7 @@ let person = {
   hobby: "탁구",
 };
 
-//2. Object.keys 사용
+//2. Object.keys 사용 배열은 for of
 //->객체에서 key 값들만 뽑아서 새로운 배열로 반환
 let keys = Object.keys(person);
 
@@ -41,7 +41,7 @@ for (let value of values) {
   //   console.log(value);
 }
 
-//2.3 for in
+//2.3 for in 객체순회
 for (let key in person) {
   const value = person[key];
   console.log(key, value);
